@@ -1,7 +1,7 @@
+#pragma once
 #include <iostream>
 #include <functional>
 #include "helper_functions.h"
-#pragma once
 
 class Trusted_setup
 {

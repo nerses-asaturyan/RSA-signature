@@ -1,3 +1,4 @@
+#pragma once
 #include "trusted_setup.h"
 
 class Verifier : public Trusted_setup
