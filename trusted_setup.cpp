@@ -1,8 +1,7 @@
 #include "trusted_setup.h"
 #include <string>
 
-
-const int Trusted_setup::get_modulus()
+int Trusted_setup::get_modulus() const
 {
     return n;
 };
@@ -22,7 +21,7 @@ void Trusted_setup::create_public_key()
     std::cout << "Public key generation failed " << public_key << std::endl;
 }
 
-const int Trusted_setup::get_public_key()
+int Trusted_setup::get_public_key() const
 {
     return public_key;
 }

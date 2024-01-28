@@ -11,8 +11,8 @@ public:
     int simple_hash(std::string s);
     void create_public_key();
     void create_private_key();
-    const int get_public_key();
-    const int get_modulus();
+    int get_public_key() const;
+    int get_modulus() const;
 
 protected:
     int private_key = 0;
